@@ -38,4 +38,4 @@ Explore and influence the tech landscape on TechDiscoverHub. Share your experien
 - **Social Media Integration:**
   - Stay connected through social media platforms for updates about the products.
 
-Feel free to visit our website: [TechDiscoverHub]()
+Feel free to visit our website: [TechDiscoverHub](https://tech-discover-hub.web.app/)
