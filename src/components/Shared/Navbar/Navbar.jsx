@@ -1,10 +1,22 @@
-import {Link, NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 
 
 
 
 const Navbar = () => {
+
+
+    const { user, logOut } = useContext(AuthContext);
+
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error));
+    }
 
 
     return (
@@ -47,9 +59,20 @@ const Navbar = () => {
                     </li>
                 </ul>
                 {/* <button className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Login</button> */}
-            
-            <Link to={"/login"}><button className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Login</button>
-            </Link>
+
+                {/* <Link to={"/login"}><button className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Login</button>
+            </Link> */}
+
+                {
+                    user ? <>
+                        {/* <span className="text-white">{user?.displayName}</span> */}
+                        {/* {user?.displayName} */}
+                        <button onClick={handleLogOut} className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">{user?.displayName}</button>
+                    </> : <>
+                        <Link to="/login"><button className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Login</button></Link>
+
+                    </>
+                }
             </nav>
         </div>
     );

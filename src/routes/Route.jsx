@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Products from "../pages/Products/Products";
 import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 // import ProductDetails from "../ProductDetails/ProductDetails";
 
 
@@ -26,12 +27,16 @@ const myCreatedRoute = createBrowserRouter([
                 path: '/login',
                 element: <Login></Login>,
             },
+            {
+                path: '/register',
+                element: <Register></Register>
+            },
             // {
             //     path: '/products/:id',
             //     element: <ProductDetails></ProductDetails>,
             //     loader: ( ({params})=> fetch(`http://localhost:5000/products/${params.id}`))
             // },
-          
+
         ]
     }
 ])

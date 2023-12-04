@@ -3,13 +3,8 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
-import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import Swal from "sweetalert2";
-
-
-
-
 
 
 
@@ -18,8 +13,8 @@ const Login = () => {
     const location = useLocation();
     const navigate = useNavigate();
     console.log('location in the login page', location);
-    const [loginError, setLoginError] = useState('');
-    const [success, setSuccess] = useState('');
+    // const [loginError, setLoginError] = useState('');
+    // const [success, setSuccess] = useState('');
 
 
     const handleLogin = e => {
@@ -33,9 +28,9 @@ const Login = () => {
 
 
 
-        // reset error and success
-        setLoginError('');
-        setSuccess('');
+        // // reset error and success
+        // setLoginError('');
+        // setSuccess('');
 
 
 
@@ -44,8 +39,8 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 // setSuccess('User Logged in Successfully.')
-                setSuccess,
-                    Swal.fire("Good job!", "User Logged in Successfully!", "success");
+                // setSuccess,
+                Swal.fire("Good job!", "User Logged in Successfully!", "success");
 
                 // navigate after login 
                 navigate(location?.state ? location.state : '/');
@@ -53,8 +48,8 @@ const Login = () => {
             .catch(error => {
                 console.error(error);
                 // setLoginError(error.message);
-                setLoginError,
-                    Swal.fire("Oops!", "Your email or password is invalid!", "error");
+                // setLoginError,
+                Swal.fire("Oops!", "Your email or password is invalid!", "error");
             })
     }
 
@@ -64,7 +59,7 @@ const Login = () => {
         signInWithGoogle()
             .then(result => {
                 console.log(result.user)
-                setSuccess,
+                // setSuccess,
                 Swal.fire("Good job!", "User Logged in Successfully!", "success");
 
 
@@ -89,13 +84,13 @@ const Login = () => {
                 <h2 className="text-3xl my-8 font-bold text-center text-white">Login</h2>
                 <form onSubmit={handleLogin} className="lg:w-1/3 md:w-1/3 w-4/5 mx-auto text-center place-items-center">
                     <div className="form-control">
-                       
+
                         <input type="email" placeholder="Email" name="email" className="input input-bordered mb-5 rounded-full" required />
                     </div>
                     <div className="form-control">
-                       
+
                         <input type="password" placeholder="Password" name="password" className="input input-bordered mb-5 rounded-full" required />
-                
+
                     </div>
                     <div className="form-control">
                         <button className="btn bg-[#fed700] text-black mb-5 rounded-full border-none">Sign In</button>
@@ -107,14 +102,16 @@ const Login = () => {
                         </button>
                     </div>
                 </form>
-                {
+                {/* {
                     loginError && <p className="text-red-700">{loginError}</p>
                 }
                 {
                     success && <p className="text-green-600">{success}</p>
-                }
-                <p className="text-center mt-4 mb-20 pb-5 text-white text-sm">Don't have an Account? <Link
-                    className="text-white font-bold text-base mb-10" to='/register'>Register</Link></p>
+                } */}
+                <p className="text-center mt-4 mb-20 pb-5 text-white text-sm">Don't have an Account?
+                    <Link to={'/register'} className="text-white font-bold text-base mb-10">Register
+                    </Link>
+                </p>
 
             </div>
         </div>
