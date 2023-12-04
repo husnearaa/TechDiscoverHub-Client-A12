@@ -49,6 +49,16 @@ const Navbar = () => {
                     </li>
                     <li>
                         <NavLink
+                            to="/dashbaord"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-[#fed700] " : ""
+                            }
+                        >
+                            DashBoard
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
                             to="/login"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#fed700]  " : ""

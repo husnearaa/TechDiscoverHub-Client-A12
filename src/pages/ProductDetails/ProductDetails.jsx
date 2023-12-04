@@ -1,5 +1,7 @@
 import { BiSolidUpvote } from "react-icons/bi";
 import { useLoaderData, } from "react-router";
+import AddReview from "../../components/AddReview/AddReview";
+import Review from "../../components/Shared/Review/Review";
 
 // import { useParams } from "react-router";
 
@@ -11,7 +13,7 @@ const ProductDetails = () => {
     const data = useLoaderData();
     console.log("data", data);
 
-    const { image, product_name, tags, description } = data;
+    const { image, product_name, tags, description, rating } = data;
 
     return (
         <div>
@@ -56,8 +58,8 @@ const ProductDetails = () => {
                                     <div className="modal-action">
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button type="submit" className="btn bg-green-600">Submit</button>
-                                            {/* <button className="btn">Close</button> */}
+                                            <button type="submit" className="btn bg-red-400">Submit</button>
+                                            <button className="btn bg-green-600">Close</button>
                                         </form>
                                     </div>
                                 </div>
@@ -68,6 +70,8 @@ const ProductDetails = () => {
 
                 </div>
             </div>
+            <AddReview></AddReview>
+            {/* <Review rating={rating}></Review> */}
         </div>
     );
 };

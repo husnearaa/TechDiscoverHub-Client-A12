@@ -7,6 +7,7 @@ import Register from "../pages/Register/Register";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Products from "../pages/Products/Products";
 import PrivateRoute from "./PrivateRoute";
+import DashBoard from "../pages/DashBoard/DashBoard";
 
 
 
@@ -25,6 +26,10 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: '/products',
                 element: <Products></Products>,
+            },
+            {
+                path: '/dashbaord',
+                element: <DashBoard></DashBoard>,
             },
             {
                 path: '/login',
