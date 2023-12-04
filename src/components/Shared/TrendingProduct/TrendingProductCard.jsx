@@ -1,11 +1,12 @@
 import { BiSolidUpvote } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 
 // eslint-disable-next-line react/prop-types
 const TrendingProductCard = ({ product }) => {
 
 
-    const { image, product_name, tags } = product || {};
+    const { _id, image, product_name, tags } = product || {};
 
     return (
         <div>
@@ -15,11 +16,11 @@ const TrendingProductCard = ({ product }) => {
                     <div className="p-6">
 
                         <div className="mb-3 flex items-center justify-between">
-
-                            <h5 className="block text-left text-xl font-medium">
-                                {product_name}
-                            </h5>
-
+                            <Link to={`products-data/${_id}`}>
+                                <h5 className="block text-left text-xl font-medium">
+                                    {product_name}
+                                </h5>
+                            </Link>
                         </div>
                         <p className="block text-left">
                             Tags: {Array.isArray(tags) ? tags.join(", ") : ""}

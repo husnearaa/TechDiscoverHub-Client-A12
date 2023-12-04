@@ -1,4 +1,5 @@
 import { BiSolidUpvote } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 
 // eslint-disable-next-line react/prop-types
@@ -14,9 +15,11 @@ const ProductsCard = ({ product }) => {
                 <img className="shadow" src={image} />
                 <div className="p-6">
                     <div className="mb-3 flex items-center justify-between">
+
                         <h5 className="block text-left text-xl font-medium">
                             {product_name}
                         </h5>
+
                     </div>
                     <p className="block text-left">
                         Tags: {Array.isArray(tags) ? tags.join(", ") : ""}
