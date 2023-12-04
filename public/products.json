@@ -2,6 +2,7 @@
     {
       "image": "https://i.postimg.cc/RFz34TBH/samsung-galaxy-tab.jpg",
       "product_name": "Samsung Galaxy tablet",
+      "description": "A sleek and powerful gadget for tech enthusiasts.",
       "tags": ["gadget", "smart"],
       "timestamp": "2023-12-03T08:30:00",
       "vote_count": 120
@@ -9,6 +10,7 @@
     {
       "image": "https://i.postimg.cc/QMjQqsFP/camera1.png",
       "product_name": "Canon m5t",
+      "description": "Explore the world of photography with this cutting-edge camera.",
       "tags": ["camera", "tech"],
       "timestamp": "2023-12-03T10:15:00",
       "vote_count": 98
@@ -16,6 +18,7 @@
     {
       "image": "https://i.postimg.cc/htjxJhxC/iphone.png",
       "product_name": "Iphone 15 pro max",
+      "description": "Experience the pinnacle of mobile technology with the latest iPhone.",
       "tags": ["mobile", "tech"],
       "timestamp": "2023-12-03T12:45:00",
       "vote_count": 150
@@ -23,6 +26,7 @@
     {
       "image": "https://i.postimg.cc/wTHft5w9/mouse.png",
       "product_name": "Bluetooth mouse",
+      "description": "Enhance your computing experience with this stylish and efficient mouse.",
       "tags": ["mouse", "tech"],
       "timestamp": "2023-12-03T15:00:00",
       "vote_count": 80
@@ -30,6 +34,7 @@
     {
       "image": "https://i.postimg.cc/DzGFfkvC/iphone2.png",
       "product_name": "Iphone 14 pro max",
+      "description": "Stay ahead with the incredible features of the latest iPhone.",
       "tags": ["gadget", "tech"],
       "timestamp": "2023-12-03T09:45:00",
       "vote_count": 135
@@ -37,6 +42,7 @@
     {
       "image": "https://i.postimg.cc/Y0j0rDhb/drone2.jpg",
       "product_name": "Drone M-64",
+      "description": "Unleash the sky's potential with the Drone M-64's smart capabilities.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-03T11:30:00",
       "vote_count": 110
@@ -44,6 +50,7 @@
     {
       "image": "https://i.postimg.cc/HstF2WnD/watch3.png",
       "product_name": "Smart Watch",
+      "description": "Stay connected and monitor your health with this state-of-the-art smartwatch.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-03T14:00:00",
       "vote_count": 90
@@ -51,6 +58,7 @@
     {
       "image": "https://i.postimg.cc/Xv2VDcvW/watch2.png",
       "product_name": "Apple smart watch",
+      "description": "Elevate your style and stay updated with the Apple smartwatch.",
       "tags": ["watch", "tech"],
       "timestamp": "2023-12-03T16:15:00",
       "vote_count": 75
@@ -58,6 +66,7 @@
     {
       "image": "https://i.postimg.cc/qBmpJGcC/drone1.png",
       "product_name": "Drone Gt-9",
+      "description": "Capture breathtaking aerial views with the powerful Drone Gt-9.",
       "tags": ["drone", "tech"],
       "timestamp": "2023-12-04T08:30:00",
       "vote_count": 112
@@ -65,6 +74,7 @@
     {
       "image": "https://i.postimg.cc/rsw52919/samsung-tab.jpg",
       "product_name": "Samsung Galaxy tablet s7",
+      "description": "The next level of smart tablet technology from Samsung.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-04T10:15:00",
       "vote_count": 96
@@ -72,6 +82,7 @@
     {
       "image": "https://i.postimg.cc/6pY2tKmd/bluespeaker.png",
       "product_name": "Bluetooth Speaker",
+      "description": "Immerse yourself in music with this stylish and portable speaker.",
       "tags": ["smart", "gadget", "tech"],
       "timestamp": "2023-12-04T12:45:00",
       "vote_count": 148
@@ -79,6 +90,7 @@
     {
       "image": "https://i.postimg.cc/Gm7fYBf9/airbuds2.png",
       "product_name": "Air Buds",
+      "description": "Enjoy a wireless audio experience with these sleek and compact Air Buds.",
       "tags": ["buds", "tech"],
       "timestamp": "2023-12-04T15:00:00",
       "vote_count": 78
@@ -86,6 +98,7 @@
     {
       "image": "https://i.postimg.cc/XqKF5zV3/camera2.png",
       "product_name": "sony m3t",
+      "description": "Elevate your photography game with the advanced features of the Sony m3t camera.",
       "tags": ["gadget", "tech"],
       "timestamp": "2023-12-04T09:45:00",
       "vote_count": 132
@@ -93,6 +106,7 @@
     {
       "image": "https://i.postimg.cc/FHQwbdNx/sumsung-phone.png",
       "product_name": "Samsung Galaxy st",
+      "description": "Embrace the future with the Samsung Galaxy st smartphone.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-04T11:30:00",
       "vote_count": 108
@@ -100,6 +114,7 @@
     {
       "image": "https://i.postimg.cc/vH7VBkBZ/headphones.png",
       "product_name": "Wireless Headphone",
+      "description": "Cut the cords and enjoy high-quality sound with these wireless headphones.",
       "tags": ["headphone", "tech"],
       "timestamp": "2023-12-04T14:00:00",
       "vote_count": 88
@@ -107,6 +122,7 @@
     {
       "image": "https://i.postimg.cc/kMskNXBr/wireless.png",
       "product_name": "Wireless Mouse",
+      "description": "Experience freedom and convenience with this advanced wireless mouse.",
       "tags": ["mouse", "tech"],
       "timestamp": "2023-12-04T16:15:00",
       "vote_count": 72
@@ -114,6 +130,7 @@
     {
       "image": "https://i.postimg.cc/9MDYgbF3/pendrive.png",
       "product_name": "Transcend",
+      "description": "Carry your data with style using the reliable Transcend pendrive.",
       "tags": ["pendrive", "tech"],
       "timestamp": "2023-12-04T16:15:00",
       "vote_count": 72
@@ -121,6 +138,7 @@
     {
       "image": "https://i.postimg.cc/bJ53qMFN/powerbank.png",
       "product_name": "Samsung battary",
+      "description": "Keep your devices charged on the go with the Samsung powerbank.",
       "tags": ["powerbank", "tech"],
       "timestamp": "2023-12-04T16:15:00",
       "vote_count": 95
@@ -128,6 +146,7 @@
     {
       "image": "https://i.postimg.cc/1tWYfBJ4/headphone3.png",
       "product_name": "Wireless Headphone",
+      "description": "Dive into a world of immersive audio with these wireless headphones.",
       "tags": ["headphone", "tech"],
       "timestamp": "2023-11-04T16:16:00",
       "vote_count": 113
@@ -135,6 +154,7 @@
     {
       "image": "https://i.postimg.cc/c4hs1GNc/vglass.png",
       "product_name": "Virtual Gaming glass",
+      "description": "Transform your gaming experience with these futuristic virtual gaming glasses.",
       "tags": ["glass", "tech"],
       "timestamp": "2023-11-04T16:12:00",
       "vote_count": 135
@@ -142,6 +162,7 @@
     {
       "image": "https://i.postimg.cc/hGgXjWy4/portable-speaker.png",
       "product_name": "Portable Speaker",
+      "description": "Take your music anywhere with this compact and powerful portable speaker.",
       "tags": ["speaker", "tech"],
       "timestamp": "2023-10-04T16:11:00",
       "vote_count": 98
@@ -149,6 +170,7 @@
     {
       "image": "https://i.postimg.cc/c4CxF1j8/vglass2.png",
       "product_name": "Virtual Gaming glass",
+      "description": "Level up your gaming with the latest Virtual Gaming glass technology.",
       "tags": ["glass", "tech"],
       "timestamp": "2023-10-04T16:14:00",
       "vote_count": 140
