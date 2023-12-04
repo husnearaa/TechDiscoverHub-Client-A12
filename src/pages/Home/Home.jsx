@@ -1,14 +1,14 @@
 
 import Banner from "../../components/Shared/Banner/Banner";
 import FeaturedProduct from "../../components/Shared/FeaturedProduct/FeaturedProduct";
-// import TrendingProduct from "../../components/Shared/TrendingProduct/TrendingProduct";
+import TrendingProduct from "../../components/Shared/TrendingProduct/TrendingProduct";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <FeaturedProduct></FeaturedProduct>
-            {/* <TrendingProduct></TrendingProduct> */}
+            <TrendingProduct></TrendingProduct>
         </div>
     );
 };
