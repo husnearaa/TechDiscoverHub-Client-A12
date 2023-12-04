@@ -110,6 +110,49 @@
       "tags": ["mouse", "tech"],
       "timestamp": "2023-12-04T16:15:00",
       "vote_count": 72
+    },
+    {
+      "image": "https://i.postimg.cc/9MDYgbF3/pendrive.png",
+      "product_name": "Transcend",
+      "tags": ["pendrive", "tech"],
+      "timestamp": "2023-12-04T16:15:00",
+      "vote_count": 72
+    },
+    {
+      "image": "https://i.postimg.cc/bJ53qMFN/powerbank.png",
+      "product_name": "Samsung battary",
+      "tags": ["powerbank", "tech"],
+      "timestamp": "2023-12-04T16:15:00",
+      "vote_count": 95
+    },
+    {
+      "image": "https://i.postimg.cc/1tWYfBJ4/headphone3.png",
+      "product_name": "Wireless Headphone",
+      "tags": ["headphone", "tech"],
+      "timestamp": "2023-11-04T16:16:00",
+      "vote_count": 113
+    },
+    {
+      "image": "https://i.postimg.cc/c4hs1GNc/vglass.png",
+      "product_name": "Virtual Gaming glass",
+      "tags": ["glass", "tech"],
+      "timestamp": "2023-11-04T16:12:00",
+      "vote_count": 135
+    },
+    {
+      "image": "https://i.postimg.cc/hGgXjWy4/portable-speaker.png",
+      "product_name": "Portable Speaker",
+      "tags": ["speaker", "tech"],
+      "timestamp": "2023-10-04T16:11:00",
+      "vote_count": 98
+    },
+    {
+      "image": "https://i.postimg.cc/c4CxF1j8/vglass2.png",
+      "product_name": "Virtual Gaming glass",
+      "tags": ["glass", "tech"],
+      "timestamp": "2023-10-04T16:14:00",
+      "vote_count": 140
     }
+    
   ]
   
