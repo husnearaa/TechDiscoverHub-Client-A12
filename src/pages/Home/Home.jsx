@@ -1,13 +1,14 @@
-import Navbar from "../../components/Shared/Navbar/Navbar";
-import Footer from "../../components/Shared/Footer/Footer";
+
 import Banner from "../../components/Shared/Banner/Banner";
+import FeaturedProduct from "../../components/Shared/FeaturedProduct/FeaturedProduct";
+// import TrendingProduct from "../../components/Shared/TrendingProduct/TrendingProduct";
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
-            <Footer></Footer>
+            <FeaturedProduct></FeaturedProduct>
+            {/* <TrendingProduct></TrendingProduct> */}
         </div>
     );
 };

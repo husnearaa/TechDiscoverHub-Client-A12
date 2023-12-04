@@ -1,0 +1,115 @@
+[
+    {
+      "image": "https://i.postimg.cc/RFz34TBH/samsung-galaxy-tab.jpg",
+      "product_name": "Samsung Galaxy tablet",
+      "tags": ["gadget", "smart"],
+      "timestamp": "2023-12-03T08:30:00",
+      "vote_count": 120
+    },
+    {
+      "image": "https://i.postimg.cc/QMjQqsFP/camera1.png",
+      "product_name": "Canon m5t",
+      "tags": ["camera", "tech"],
+      "timestamp": "2023-12-03T10:15:00",
+      "vote_count": 98
+    },
+    {
+      "image": "https://i.postimg.cc/htjxJhxC/iphone.png",
+      "product_name": "Iphone 15 pro max",
+      "tags": ["mobile", "tech"],
+      "timestamp": "2023-12-03T12:45:00",
+      "vote_count": 150
+    },
+    {
+      "image": "https://i.postimg.cc/wTHft5w9/mouse.png",
+      "product_name": "Bluetooth mouse",
+      "tags": ["mouse", "tech"],
+      "timestamp": "2023-12-03T15:00:00",
+      "vote_count": 80
+    },
+    {
+      "image": "https://i.postimg.cc/DzGFfkvC/iphone2.png",
+      "product_name": "Iphone 14 pro max",
+      "tags": ["gadget", "tech"],
+      "timestamp": "2023-12-03T09:45:00",
+      "vote_count": 135
+    },
+    {
+      "image": "https://i.postimg.cc/Y0j0rDhb/drone2.jpg",
+      "product_name": "Drone M-64",
+      "tags": ["smart", "tech"],
+      "timestamp": "2023-12-03T11:30:00",
+      "vote_count": 110
+    },
+    {
+      "image": "https://i.postimg.cc/HstF2WnD/watch3.png",
+      "product_name": "Smart Watch",
+      "tags": ["smart", "tech"],
+      "timestamp": "2023-12-03T14:00:00",
+      "vote_count": 90
+    },
+    {
+      "image": "https://i.postimg.cc/Xv2VDcvW/watch2.png",
+      "product_name": "Apple smart watch",
+      "tags": ["watch", "tech"],
+      "timestamp": "2023-12-03T16:15:00",
+      "vote_count": 75
+    },
+    {
+      "image": "https://i.postimg.cc/qBmpJGcC/drone1.png",
+      "product_name": "Drone Gt-9",
+      "tags": ["drone", "tech"],
+      "timestamp": "2023-12-04T08:30:00",
+      "vote_count": 112
+    },
+    {
+      "image": "https://i.postimg.cc/rsw52919/samsung-tab.jpg",
+      "product_name": "Samsung Galaxy tablet s7",
+      "tags": ["smart", "tech"],
+      "timestamp": "2023-12-04T10:15:00",
+      "vote_count": 96
+    },
+    {
+      "image": "https://i.postimg.cc/6pY2tKmd/bluespeaker.png",
+      "product_name": "Bluetooth Speaker",
+      "tags": ["smart", "gadget", "tech"],
+      "timestamp": "2023-12-04T12:45:00",
+      "vote_count": 148
+    },
+    {
+      "image": "https://i.postimg.cc/Gm7fYBf9/airbuds2.png",
+      "product_name": "Air Buds",
+      "tags": ["buds", "tech"],
+      "timestamp": "2023-12-04T15:00:00",
+      "vote_count": 78
+    },
+    {
+      "image": "https://i.postimg.cc/XqKF5zV3/camera2.png",
+      "product_name": "sony m3t",
+      "tags": ["gadget", "tech"],
+      "timestamp": "2023-12-04T09:45:00",
+      "vote_count": 132
+    },
+    {
+      "image": "https://i.postimg.cc/FHQwbdNx/sumsung-phone.png",
+      "product_name": "Samsung Galaxy st",
+      "tags": ["smart", "tech"],
+      "timestamp": "2023-12-04T11:30:00",
+      "vote_count": 108
+    },
+    {
+      "image": "https://i.postimg.cc/vH7VBkBZ/headphones.png",
+      "product_name": "Wireless Headphone",
+      "tags": ["headphone", "tech"],
+      "timestamp": "2023-12-04T14:00:00",
+      "vote_count": 88
+    },
+    {
+      "image": "https://i.postimg.cc/kMskNXBr/wireless.png",
+      "product_name": "Wireless Mouse",
+      "tags": ["mouse", "tech"],
+      "timestamp": "2023-12-04T16:15:00",
+      "vote_count": 72
+    }
+  ]
+  
