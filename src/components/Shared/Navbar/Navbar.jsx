@@ -75,9 +75,9 @@ const Navbar = () => {
 
                 {
                     user ? <>
-                        {/* <span className="text-white">{user?.displayName}</span> */}
                         {/* {user?.displayName} */}
-                        <button onClick={handleLogOut} className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">{user?.displayName}</button>
+                        <span className="text-white">{user?.displayName}</span>
+                        <button onClick={handleLogOut} className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Logout</button>
                     </> : <>
                         <Link to="/login"><button className="btn border-[#fed700] text-black bg-[#fed700] px-10 rounded-full">Login</button></Link>
 
