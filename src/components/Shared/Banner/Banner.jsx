@@ -5,10 +5,10 @@ const Banner = () => {
     return (
         <Carousel className='text-center' >
             <div className=" h-[80vh]">
-                <img src={"https://i.ibb.co/k0KytNN/END-SEASON.jpg"} />
+                <img src={"https://i.postimg.cc/c4D3FrGg/END-SEASON.jpg"} />
             </div>
             <div className=" h-[80vh]">
-                <img src={"https://i.ibb.co/dprJdfK/Brand-new-Smartwatch.jpg"} />
+                <img src={"https://i.postimg.cc/qMtBdRCC/Brand-new-Smartwatch.jpg"} />
             </div>
             <div className=" h-[80vh]">
                 <img src={"https://i.ibb.co/dtD5Fh4/BLUETOOTH-SPEKER.jpg"} />

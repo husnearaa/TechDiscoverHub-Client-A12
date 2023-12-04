@@ -33,7 +33,7 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/dashbaord',
-                element: <DashBoard></DashBoard>,
+                element: <PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
             },
             {
                 path: '/login',
@@ -46,8 +46,8 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: '/products-data/:id',
                 element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
-                // loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
-                loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+                // loader: ({ params }) => fetch(`https://tech-discover-hub-server.vercel.app/products/${params.id}`)
+                loader: ({ params }) => fetch(`https://tech-discover-hub-server.vercel.app/products/${params.id}`)
             },
 
         ]

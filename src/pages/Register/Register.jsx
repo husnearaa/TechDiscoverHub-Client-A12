@@ -27,7 +27,7 @@ const SignUp = () => {
                             email: data.email,
                             image: data.photoURL
                         }
-                        axios.post('http://localhost:5000/users', userInfo)
+                        axios.post('https://tech-discover-hub-server.vercel.app/users', userInfo)
                             .then(res => {
                                 if (res.data.insertedId) {
                                     console.log('user added to the database')
@@ -57,7 +57,7 @@ const SignUp = () => {
                     email: result.user?.email,
                     name: result.user?.displayName
                 }
-                axios.post('http://localhost:5000/users', userInfo)
+                axios.post('https://tech-discover-hub-server.vercel.app/users', userInfo)
                     .then(res => {
                         console.log(res.data);
                         Swal.fire("Good job!", "User Logged in Successfully!", "success");

@@ -22,7 +22,7 @@ const AddReview = () => {
         console.log(addedReview);
 
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://tech-discover-hub-server.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
