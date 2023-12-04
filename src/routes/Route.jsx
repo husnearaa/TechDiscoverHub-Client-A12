@@ -5,9 +5,13 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Login from '../pages/Login/Login';
 import Register from "../pages/Register/Register";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
-import Products from "../pages/Products/Products";
 import PrivateRoute from "./PrivateRoute";
-import DashBoard from "../pages/DashBoard/DashBoard";
+// import UserHome from "../pages/DashBoard/UserHome/UserHome";
+// import ReviewHistory from "../pages/DashBoard/ReviewHistory/ReviewHistory";
+import Products from "../pages/Products/Products";
+import DashBoard from "../layout/DashBoard";
+// import DashBoard from "../layout/DashBoard";
+
 
 
 
@@ -47,7 +51,25 @@ const myCreatedRoute = createBrowserRouter([
             },
 
         ]
-    }
+    },
+    // {
+    //     path: 'dashboard',
+    //     element: <PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
+    //     children: [
+    //         // normal user routes
+    //         {
+    //             path: '/userHome',
+    //             element: <UserHome></UserHome>
+    //         },
+
+    //         {
+    //             path: '/reviewHistory',
+    //             element: <ReviewHistory></ReviewHistory>
+    //         },
+
+
+    //     ]
+    // }
 ])
 
 export default myCreatedRoute;
