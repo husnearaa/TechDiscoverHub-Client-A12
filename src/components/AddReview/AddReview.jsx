@@ -4,15 +4,16 @@ import { useContext } from "react";
 
 
 
-const AddReview = ({ review }) => {
+const AddReview = () => {
 
     const { user } = useContext(AuthContext);
 
-    const { name } = review || {};
+
     const handleAddReview = event => {
         event.preventDefault();
 
         const form = event.target;
+        const name = form.name.value;
         const rating = form.rating.value;
         const feedback = form.feedback.value;
 
@@ -59,6 +60,12 @@ const AddReview = ({ review }) => {
                             {/* form  row */}
                             <div className="mb-8">
                                 <div className="form-control w-full">
+                                    <label className="label">
+                                        <span className="label-text font-semibold text-base text-black dark:text-white">Your Name</span>
+                                    </label>
+                                    <label className="">
+                                        <input type="text" name="name" placeholder="Your Name" required className="input input-bordered rounded-sm  w-full dark:bg-gray-100" />
+                                    </label>
                                     <label className="label">
                                         <span className="label-text font-semibold text-base text-black dark:text-white">Rating</span>
                                     </label>

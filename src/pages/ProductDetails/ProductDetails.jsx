@@ -13,7 +13,7 @@ const ProductDetails = () => {
     const data = useLoaderData();
     console.log("data", data);
 
-    const { image, product_name, tags, description, rating } = data;
+    const { image, product_name, tags, description } = data;
 
     return (
         <div>
@@ -71,7 +71,7 @@ const ProductDetails = () => {
                 </div>
             </div>
             <AddReview></AddReview>
-            {/* <Review rating={rating}></Review> */}
+            <Review ></Review>
         </div>
     );
 };

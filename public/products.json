@@ -5,6 +5,7 @@
       "description": "A sleek and powerful gadget for tech enthusiasts.",
       "tags": ["gadget", "smart"],
       "timestamp": "2023-12-03T08:30:00",
+      "rating": 4,
       "vote_count": 120
     },
     {
@@ -13,6 +14,7 @@
       "description": "Explore the world of photography with this cutting-edge camera.",
       "tags": ["camera", "tech"],
       "timestamp": "2023-12-03T10:15:00",
+      "rating": 5,
       "vote_count": 98
     },
     {
@@ -21,6 +23,7 @@
       "description": "Experience the pinnacle of mobile technology with the latest iPhone.",
       "tags": ["mobile", "tech"],
       "timestamp": "2023-12-03T12:45:00",
+      "rating": 4,
       "vote_count": 150
     },
     {
@@ -29,6 +32,7 @@
       "description": "Enhance your computing experience with this stylish and efficient mouse.",
       "tags": ["mouse", "tech"],
       "timestamp": "2023-12-03T15:00:00",
+      "rating": 4,
       "vote_count": 80
     },
     {
@@ -37,6 +41,7 @@
       "description": "Stay ahead with the incredible features of the latest iPhone.",
       "tags": ["gadget", "tech"],
       "timestamp": "2023-12-03T09:45:00",
+      "rating": 3,
       "vote_count": 135
     },
     {
@@ -45,6 +50,7 @@
       "description": "Unleash the sky's potential with the Drone M-64's smart capabilities.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-03T11:30:00",
+      "rating": 5,
       "vote_count": 110
     },
     {
@@ -53,6 +59,7 @@
       "description": "Stay connected and monitor your health with this state-of-the-art smartwatch.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-03T14:00:00",
+      "rating": 3,
       "vote_count": 90
     },
     {
@@ -61,6 +68,7 @@
       "description": "Elevate your style and stay updated with the Apple smartwatch.",
       "tags": ["watch", "tech"],
       "timestamp": "2023-12-03T16:15:00",
+      "rating": 4,
       "vote_count": 75
     },
     {
@@ -69,6 +77,7 @@
       "description": "Capture breathtaking aerial views with the powerful Drone Gt-9.",
       "tags": ["drone", "tech"],
       "timestamp": "2023-12-04T08:30:00",
+      "rating": 5,
       "vote_count": 112
     },
     {
@@ -77,6 +86,7 @@
       "description": "The next level of smart tablet technology from Samsung.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-04T10:15:00",
+      "rating": 4,
       "vote_count": 96
     },
     {
@@ -85,6 +95,7 @@
       "description": "Immerse yourself in music with this stylish and portable speaker.",
       "tags": ["smart", "gadget", "tech"],
       "timestamp": "2023-12-04T12:45:00",
+      "rating": 3,
       "vote_count": 148
     },
     {
@@ -93,6 +104,7 @@
       "description": "Enjoy a wireless audio experience with these sleek and compact Air Buds.",
       "tags": ["buds", "tech"],
       "timestamp": "2023-12-04T15:00:00",
+      "rating": 3,
       "vote_count": 78
     },
     {
@@ -101,6 +113,7 @@
       "description": "Elevate your photography game with the advanced features of the Sony m3t camera.",
       "tags": ["gadget", "tech"],
       "timestamp": "2023-12-04T09:45:00",
+      "rating": 5,
       "vote_count": 132
     },
     {
@@ -109,6 +122,7 @@
       "description": "Embrace the future with the Samsung Galaxy st smartphone.",
       "tags": ["smart", "tech"],
       "timestamp": "2023-12-04T11:30:00",
+      "rating": 4,
       "vote_count": 108
     },
     {
@@ -117,6 +131,7 @@
       "description": "Cut the cords and enjoy high-quality sound with these wireless headphones.",
       "tags": ["headphone", "tech"],
       "timestamp": "2023-12-04T14:00:00",
+      "rating": 4,
       "vote_count": 88
     },
     {
@@ -125,6 +140,7 @@
       "description": "Experience freedom and convenience with this advanced wireless mouse.",
       "tags": ["mouse", "tech"],
       "timestamp": "2023-12-04T16:15:00",
+      "rating": 5,
       "vote_count": 72
     },
     {
@@ -133,6 +149,7 @@
       "description": "Carry your data with style using the reliable Transcend pendrive.",
       "tags": ["pendrive", "tech"],
       "timestamp": "2023-12-04T16:15:00",
+      "rating": 3,
       "vote_count": 72
     },
     {
@@ -141,6 +158,7 @@
       "description": "Keep your devices charged on the go with the Samsung powerbank.",
       "tags": ["powerbank", "tech"],
       "timestamp": "2023-12-04T16:15:00",
+      "rating": 4,
       "vote_count": 95
     },
     {
@@ -149,6 +167,7 @@
       "description": "Dive into a world of immersive audio with these wireless headphones.",
       "tags": ["headphone", "tech"],
       "timestamp": "2023-11-04T16:16:00",
+      "rating": 4,
       "vote_count": 113
     },
     {
@@ -157,6 +176,7 @@
       "description": "Transform your gaming experience with these futuristic virtual gaming glasses.",
       "tags": ["glass", "tech"],
       "timestamp": "2023-11-04T16:12:00",
+      "rating": 5,
       "vote_count": 135
     },
     {
@@ -165,6 +185,7 @@
       "description": "Take your music anywhere with this compact and powerful portable speaker.",
       "tags": ["speaker", "tech"],
       "timestamp": "2023-10-04T16:11:00",
+      "rating": 3,
       "vote_count": 98
     },
     {
@@ -173,6 +194,7 @@
       "description": "Level up your gaming with the latest Virtual Gaming glass technology.",
       "tags": ["glass", "tech"],
       "timestamp": "2023-10-04T16:14:00",
+      "rating": 4,
       "vote_count": 140
     }
     
